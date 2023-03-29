@@ -1,0 +1,160 @@
+/* 
+colors: 
+  body background: #0c122c
+  card background: #1d2c67
+  bar color: #d765f1
+*/
+
+/*
+ 
+REVISA EN LOS APUNTES LA PROPIEDAD border-radius
+
+PARA CAMBIAR EL TAMAÑO DE FUENTE USA LA PROPIEDAD font-size
+
+*/
+* {
+  box-sizing: border-box;
+  } 
+img {
+  max-width:100%
+  display:block;
+}
+body {
+  margin: 0;
+  background-color: #0c122c;
+  font-family: sans-serif;
+}
+.main{
+  position:relative;
+  top:300px;
+}
+.box1{
+  position:relative;
+  top: -520px;
+  left:300px;
+  border-radius: 10px 120px 10px 10px;
+  width:340px;
+  height:190px;
+  background-color:rgb(26,40,94);
+}
+.logo{
+  position:relative;
+  top:35px;
+  left:30px;
+  width:80px;
+  height:80px;
+}
+.theme1{
+  position:relative;
+  display:inline-block;
+  top:30px;
+  left:35px;
+  width:35px;
+  height:40px;
+  border-radius: 10px 10px 10px 10px;
+  background-color:rgb(3, 3, 46);
+}
+.icon1{
+  position:relative;
+  display:inline-block;
+  top:8px;
+  left:8px;
+  width:30px;
+  height:30px;
+}
+.theme2{
+  position:relative;
+  display:inline-block;
+  top:26px;
+  left:50px;
+  width:35px;
+  height:40px;
+  border-radius: 10px 10px 10px 10px;
+  background-color:rgb(3, 3, 46);
+}
+.icon2{
+  position:relative;
+  display:inline-block;
+  top:10px;
+  left:5px;
+  width:45px;
+  height:45px;
+}
+.theme3{
+  position:relative;
+  display:inline-block;
+  top:22px;
+  left:63px;
+  width:35px;
+  height:40px;
+  border-radius: 10px 10px 10px 10px;
+  background-color:rgb(3, 3, 46);
+}
+.icon3{
+  position:relative;
+  display:inline-block;
+  top:12px;
+  left:5px;
+  width:45px;
+  height:45px;  
+}
+.box2{
+  position:relative;
+  top: -670px;
+  left:740px;
+  border-radius: 10px 10px 10px 10px;
+  width:540px;
+  height:150px;
+  padding:40px;
+  background-color:rgb(26,40,94);
+}
+.box3{
+  position:relative;
+  top:40px;
+  left:15px;
+  border-radius: 10px 10px 10px 10px;
+  width:400px;
+  height:20px;
+  background-color:rgb(3, 3, 46);
+}
+.box4{
+  position:relative;
+  top:0px;
+  left:0px;
+  border-radius: 10px 10px 10px 10px;
+  width:300px;
+  height:20px;
+  background-color:rgb(170, 75, 154);
+}
+.boxwhite{
+  position:relative;
+  top:-135px;
+  left:370px;
+  padding:25px 10px 10px 30px;
+  font-size:20px;
+  border-radius: 10px 10px 10px 10px;
+  width:180px;
+  height:70px;
+  background-color:rgb(255, 255, 255);
+}
+.text1{
+  position:relative;
+  top:-5px;
+  left: 10px;
+  font-size:small;
+  color:white;
+}
+.text2{
+  position:relative;
+  top:35px;
+  left:10px;
+  font-size: small;
+  color:white;
+}
+.text3{
+  position:relative;
+  top:22px;
+  left:380px;
+  font-size:small;
+  color:white
+}
